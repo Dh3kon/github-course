@@ -1,2 +1,2 @@
-#Git and Github course
+# Git and Github course
 Learning about Git and Github
