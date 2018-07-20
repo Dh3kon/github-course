@@ -29,3 +29,8 @@ git reset HEAD <file name> // remove depois do git add e antes do commit
 git reset --soft anula commit e staged
 git reset --mixed anula commit e modified
 git reset --hard ignora commit
+
+git remote add origin git@github.com:Dh3kon/github-course.git
+git remote // Mostra ligação remota
+git remote -v
+git push -u origin master // -u evita digitação do origin master no próximo push
