@@ -1,0 +1,31 @@
+git config --global user.name "<username>"
+git config --global user.email "<email>"
+git config --global core.editor <editor>
+git config user.name
+git config user.email
+git config --list
+
+git init
+ls -la
+
+git status
+git add .
+git commit -m 'message'
+
+git log
+git log --decorate
+git log --author="Kl"
+git shortlog
+git shortlog -sn
+git log --graph
+git show <hash number>
+
+git diff // Usar antes do commit
+git diff --name-only
+git commit -am '<message>'
+
+git checkout <file name> // remove antes do git add
+git reset HEAD <file name> // remove depois do git add e antes do commit
+git reset --soft anula commit e staged
+git reset --mixed anula commit e modified
+git reset --hard ignora commit
