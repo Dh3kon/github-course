@@ -34,3 +34,23 @@ git remote add origin git@github.com:Dh3kon/github-course.git
 git remote // Mostra ligação remota
 git remote -v
 git push -u origin master // -u evita digitação do origin master no próximo push
+
+git clone <repository link> <optional name>
+
+git checkout -b '<branch-name>'
+git branch
+
+git checkout <branch-name>
+git branch -d <branch-name> // delete the branch
+
+git merge <branch-name>
+git rebase <branch-name>
+
+--- gitignore ---
+
+git stash
+git stash apply
+git stash list
+git stash clear
+
+git config --global alias.s git status // cria atalhos para simplificar comandos
